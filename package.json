@@ -1,0 +1,24 @@
+{
+  "name": "ticket_sale",
+  "version": "1.0.0",
+  "main": "compile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --timeout 10000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "solc": "^0.8.17"
+  },
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "ganache": "^7.9.2",
+    "mocha": "^10.8.0",
+    "web3": "^1.0.0-beta.26"
+  }
+}
